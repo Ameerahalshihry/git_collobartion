@@ -1,13 +1,15 @@
+>Anything between this <> is a placeholder
 ### Team Leader
 1. create repo
-2. `git init` 
+2. `mkdir folder_name` then `git init` 
 3. `git remote add <git url>`
-4. `git add -A` then `git commit -m '<relevant message>'`
+4. create file(s) and `git add -A` then `git commit -m '<relevant message>'`
 5. `git push origin master` push to repo master branch
 6. `git checkout -b dev` to create dev branch and checkout to dev branch
-7. run 4 - 5 again
+7. run 4 again
 8. `git push origin dev`
-9. If you have a pull request
+9. If you have a pull request pending, view the request and merge if and only if the code is perfect
+10. `git checkout master` then `git merge dev`
 
 
 
